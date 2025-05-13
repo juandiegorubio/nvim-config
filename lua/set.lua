@@ -1,11 +1,10 @@
 vim.g.have_nerd_font = false
 
--- Lines numbered
 vim.opt.number = true
 vim.opt.relativenumber = true
 
-vim.opt.mouse = "a"         -- Mouse support to all previous modes
-vim.opt.showmode = true     -- Shows current mode
+vim.opt.mouse = "a"
+vim.opt.showmode = false
 
 -- Sync clipboard between OS and Neovim.
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
