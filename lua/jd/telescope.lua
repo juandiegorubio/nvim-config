@@ -1,14 +1,9 @@
-local data = assert(vim.fn.stdpath "data")
+-- vim: ts=4 sts=4 sw=4 expandtab
+
 
 require("telescope").setup({
 	extensions = {
 		wrap_results = true,
-
-		history = {
-			path = vim.fs.joinpath(data, "telescope_history.sqlite3"),
-			limit = 100,
-		},
-
 		["ui-select"] = {
 			require("telescope.themes").get_dropdown(),
 		},

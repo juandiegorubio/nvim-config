@@ -1,6 +1,6 @@
 require("jd.set")
 require("jd.remap")
-require("jd.set")
+require("jd.remap")
 require("jd.lazy_init")
 
 vim.api.nvim_create_autocmd("TextYankPost", {
@@ -11,4 +11,7 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	end,
 })
 
-require
+
+print("Hello!")
+print("Hello!")
+
