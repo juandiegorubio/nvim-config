@@ -1,6 +1,5 @@
 require("jd.set")
 require("jd.remap")
-require("jd.remap")
 require("jd.lazy_init")
 
 vim.api.nvim_create_autocmd("TextYankPost", {
@@ -10,8 +9,3 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 		vim.highlight.on_yank()
 	end,
 })
-
-
-print("Hello!")
-print("Hello!")
-

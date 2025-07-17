@@ -1,3 +1,4 @@
+-- vim: ts=4 sts=4 sw=4 expandtab
 return  {
 	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
 
@@ -21,14 +22,10 @@ return  {
 	},
 
 	{ "folke/zen-mode.nvim",
-	  opts = {
-		-- your configuration comes here
-		-- or leave it empty to use the default settings
-		-- refer to the configuration section below
-	  }
+	  opts = { }
 	},
 
-	{ "echasnovski/mini.nvim",		-- Collection of various small independent plugins/modules
+	{ "echasnovski/mini.nvim",	-- Collection of various small independent plugins/modules
 		config = function()
 			--  - va)  - [V]isually select [A]round [)]paren
 			--  - yinq - [Y]ank [I]nside [N]ext [Q]uote
