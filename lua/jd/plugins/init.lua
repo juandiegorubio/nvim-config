@@ -22,7 +22,12 @@ return  {
 	},
 
 	{ "folke/zen-mode.nvim",
-	  opts = { }
+	  opts = {
+        window = {
+          width = 0.65
+        },
+        vim.keymap.set('n', '<Leader>zm', ':ZenMode<CR>')
+      }
 	},
 
 	{ "echasnovski/mini.nvim",	-- Collection of various small independent plugins/modules
