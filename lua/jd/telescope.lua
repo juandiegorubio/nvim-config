@@ -7,7 +7,10 @@ require("telescope").setup({
 		["ui-select"] = {
 			require("telescope.themes").get_dropdown(),
 		},
-	}
+	},
+    pickers = {
+        find_files = { hidden = true }
+    }
 })
 
 local load_extension = require("telescope").load_extension
